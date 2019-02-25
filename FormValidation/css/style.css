@@ -1,0 +1,36 @@
+
+body{
+background-color: #C5CAE9;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.wrong{
+	color: firebrick;
+    font-size: 14px;
+}
+.btn{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background-color: cadetblue;
+    
+}
+input{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
+
+

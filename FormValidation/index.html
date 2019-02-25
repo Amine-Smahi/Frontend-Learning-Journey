@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>form validation</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+
+	<div class="form">
+
+			<h3>Civilité: </h3>
+			<select id="civilité">
+			<option selected="selected">selectionnez votre civilité</option>
+			<option> Los Angelos</option>
+			<option> Konoha</option>
+			</select>
+			<br>
+			<h3 id="erreur_civilité" class="wrong"></h3>
+			
+
+			<h3>Nom:</h3>
+			<input type="text" name="nom">
+			<br>
+ 			<h3 id="erreur_nom" class="wrong"></h3>
+ 			
+
+			<h3>Prénom:</h3>
+			<input type="text" name="prenom">
+			<br>
+			<h3 id="erreur_prenom" class="wrong">  </h3>
+			
+
+			<h3>Age:</h3>
+			<input type="number" name="age">
+			<br>
+			<h3 id="erreur_age" class="wrong">  </h3>
+			
+
+			<h3>Email:</h3>
+			<input type="email" name="email">
+			<br>
+			<h3 id="erreur_email" class="wrong"> </h3>
+
+
+			<h3>Pays: </h3>
+			<select id="pays">
+			<option selected="selected">selectionnez votre Pays</option>
+			<option> Algeria</option>
+			<option> Literally anywhere else</option>
+			</select>
+			<br>
+			<h3 id="erreur_pays" class="wrong"> </h3>
+
+	
+			<h3>Pseudo:</h3>
+			<input type="text" name="pseudo">
+			<br>
+			<h3 id="erreur_pseudo" class="wrong"></h3>
+		
+			<h3>Mot de passe:</h3>
+			<input type="password" name="motDePasse">
+			<br>
+			<h3 id="erreur_password" class="wrong">  </h3>
+		
+			<h3>Mot de passe (confirmation):</h3>
+			<input type="password" name="confirmation">
+			<br>
+			<h3 id="erreur_confirmation" class="wrong">  </h3>
+
+
+			<br><br>
+			<input type="checkbox" name="condition" ><h3>Je désire recevoir le truc a chaque truc</h3>
+			
+			<br>
+			<input type="submit" class="btn" name="submit it" onclick="checking()">
+	</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
