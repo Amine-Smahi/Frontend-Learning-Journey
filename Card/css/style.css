@@ -1,0 +1,108 @@
+* {
+  user-select: none;
+  transition: .3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: rgba(238, 238, 238 , 1);
+    font-size: 62.5%;
+}
+
+.paper {
+  margin: 10vh auto;
+  min-width: 20vw;
+  max-width: 60vh;
+  min-height: 20vh;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50, 50, 90, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  transition: .6s ease;
+  background: white;
+  text-align: center;
+}
+
+.paper:hover {
+  box-shadow: 5px 28px 35px 5px rgba(50, 0, 90, 0.1);
+  transform: translateY(-5px);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.poster {
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 2vh;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: #303336;
+  letter-spacing: 1px;
+  margin: 2vh 4vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2 {
+  font-size: .4rem;
+  color: #A0A6AB;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 20%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border: 0;
+  border-bottom: 1px solid #E6E9EC;
+}
+
+p {
+  margin: 2vh 8vw;
+  text-align: center;
+  padding-bottom: 1vh;
+  color: #A0A6AB;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  line-height: 1.25rem;
+}
+
+.btn,
+a.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 20px;
+  border-radius: 4px;
+  padding: 1vh 2vh;
+  letter-spacing: .02rem;
+  background: #664EF7;
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: .8rem;
+  box-shadow: 0 0px 0px rgba(48, 51, 54, 0.1), 0 0px 0px transparent;
+}
+
+.btn,
+a.btn:hover {
+  background: #7C66FF;
+  box-shadow: 0 7px 14px rgba(48, 51, 54, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.btn,
+a.btn:active {
+  box-shadow: 0 4px 6px rgba(48, 51, 54, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12);
+  transform: translateY(1px);
+}
+
+.space {
+  height: 4vh;
+}
