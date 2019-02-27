@@ -1,5 +1,5 @@
 <h1 align="center">Frontend Learning Journey</h1>
-<p align="center">The humble way i took to learn frontend web development </p>
+<p align="center">The humble way i took to learn frontend web development, Be free to add any helpful resources! </p>
 
 <h2>Summary</h2>
 
