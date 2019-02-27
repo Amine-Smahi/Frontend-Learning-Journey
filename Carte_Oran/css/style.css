@@ -1,0 +1,32 @@
+ body{
+        background-image: url(../img/background.jpg);
+        font-family: flat, 'Helvetica Neue', Helvetica, tahoma, arial, sans-serif;
+    }
+.card{
+	margin-left: auto;
+	margin-right: auto;
+ border-style: solid;
+    border-color: #fff;
+box-shadow: 5px 6px 5px black;
+ height:600px;
+ width: 700px;
+    background-color: dodgerblue;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+ .info{
+        border-style: solid;
+     border-color: #fff;
+     width: 697px;
+        height: 95px;
+     background-color: #fff;
+     text-align: center;
+    }
+.left{
+    width: 300px;
+    float : left;
+    }
+    .right{
+        width: 300px;
+    float : right;
+    }
