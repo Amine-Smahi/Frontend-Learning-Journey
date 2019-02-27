@@ -2,11 +2,12 @@
 <p align="center">Some of the projects i made when starting to learn frontend web developement </p>
 
 <h2>Summary</h2>
-- What is frontend
-- What this repository contains
-- How to run the project
-- Resources & tutorials
-- Credits
+
+* What is frontend
+* What this repository contains
+* How to run the project
+* Resources & tutorials
+* Credits
 
 ## What is frontend (By wikipedia)
 > Front-end web development is the practice of converting data to graphical interface for user to view and interact with data through digital interaction using HTML, CSS and JavaScript. 
@@ -28,6 +29,12 @@ While learning i did very simple projects to test what i learned
 * [Blog](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/blog)
 * [CV](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/cv)
 * [Resume](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/resume)
+* [Login-register-forgot](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Login-register-forgot)
+* [Card](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Card)
+#### Other projects
+* [Alphalio](https://github.com/Amine-Smahi/Alphalio)
+* [AdvanBit](https://github.com/Amine-Smahi/AdvanBit)
+* [Material-Design-Resume](https://github.com/Amine-Smahi/Material-Design-Resume)
 
 ## How to run the project
 1) Click on the html file to open it
