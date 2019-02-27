@@ -1,11 +1,11 @@
 <h1 align="center">Frontend Learning Journey</h1>
-<p align="center">Some of the projects i made when starting to learn frontend web developement </p>
+<p align="center">The humble way i took to learn frontend web development </p>
 
 <h2>Summary</h2>
 
 * What is frontend
 * What this repository contains
-* How to run the project
+* How to run the projects
 * Resources & tutorials
 * CSS Frameworks
 * Credits
@@ -43,7 +43,7 @@ While learning i did very simple projects to test what i learned
 * [BallFall](https://github.com/Amine-Smahi/BallFall)
 
 
-## How to run the project
+## How to run the projects
 1) Click on the html file to open it
 2) Done! it will open your default browser and navigate to the web page
 
