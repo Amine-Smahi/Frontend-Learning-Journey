@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>HTML Comment Remover</title>
+    <meta name="description" content="Get a clean Html page by removing every HTML comment. Everything written between the beginning and closing comment tags is considered a comment." />
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+
+        textarea {
+            margin-top: 20px;
+            width: 90%;
+            height: 90%;
+        }
+
+        button {
+            font-size: 22px;
+            background-color: seagreen;
+            padding: 20px;
+            color: #fff;
+            box-shadow: 1px 2px 1px black;
+        }
+    </style>
+    <center>
+        <textarea></textarea>
+        <button>remove comments</button>
+    </center>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script>
+        $("button").click(function () {
+            $("textarea").val($("textarea").val().replace(
+                /<!--(?!\s*(?:\[if [^\]]+]|<!|>))(?:(?!-->)(.|\n))*-->/g, ""));
+
+        });
+    </script>
+</body>
+<html>
