@@ -1,0 +1,109 @@
+/* Themefisher Fonts */
+
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayblack_italic';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scblack';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-black-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scBlkIt';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-blackitalic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scbold';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scBdIt';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-bolditalic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scitalic';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-italic-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_display_scregular';
+    src: url('../../fonts/playfairdisplaysc/playfairdisplaysc-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/playfairdisplaysc/playfairdisplaysc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
