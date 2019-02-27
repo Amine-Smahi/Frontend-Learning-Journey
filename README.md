@@ -31,10 +31,16 @@ While learning i did very simple projects to test what i learned
 * [Resume](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/resume)
 * [Login-register-forgot](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Login-register-forgot)
 * [Card](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Card)
+* [Form-BootstrapValidator](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Form-BootstrapValidator)
+* [HtmlCommentRemover](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/HtmlCommentRemover)
+
 #### Other projects
 * [Alphalio](https://github.com/Amine-Smahi/Alphalio)
 * [AdvanBit](https://github.com/Amine-Smahi/AdvanBit)
 * [Material-Design-Resume](https://github.com/Amine-Smahi/Material-Design-Resume)
+* [SimpleFolio](https://github.com/Amine-Smahi/SimpleFolio)
+* [BallFall](https://github.com/Amine-Smahi/BallFall)
+
 
 ## How to run the project
 1) Click on the html file to open it
