@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400);
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+@mixin circleShadow($vertical) {
+	box-shadow:0 0 $vertical rgba(0,0,0,.14),0 $vertical $vertical*2 rgba(0,0,0,.28)
+}
+
+.toasts {
+	bottom: 1em;
+	left: 1em;
+	position: fixed;
+	
+	.floatingText {
+		
+		background-color: #212121;
+		border-radius: 0.19em;
+		color: #FFF;
+		display: inherit;
+		font-family: 'Roboto';
+		font-size: 0.8em;
+		font-weight: 300;
+		min-width: 15em;
+		padding: 1em 2em;
+		position: relative;
+		text-align: left;
+  }
+}
+
+.floatingContainer {
+	bottom: 2em;
+	position: fixed;
+	right: 6em;
+	
+	&:hover {
+		.subActionButton {
+			transition: opacity 1.2s;
+		}
+		.subActionButton + .subActionButton {
+			transition: opacity 0.8s;
+		}
+		.subActionButton + .subActionButton + .subActionButton {
+			transition: opacity 0.4s;
+		}
+	}
+}
+
+.actionButton {
+	background-color: #D32F2F;
+	border-radius: 50%;
+	height: 3em;
+	position: relative;
+	width: 3em;
+	z-index: 1000;
+	
+	@include circleShadow(4px);
+	
+	.floatingText {
+		color: #FFF;
+		display: none;
+		font-family: 'Roboto';
+		position: absolute;
+		top: -.2em;
+		right: 3.5em;
+		min-width: 10em;
+		text-align: right;
+		
+		&.show {
+			display: inherit;
+		}
+	}
+	.floatingTextBG {
+		padding: 0.2em 0.5em;
+		background-color: rgba(33, 33, 33, 0.8);
+		border-radius: .3em;
+	}
+	
+	&.display {
+		display: inherit;
+	}
+	
+	&:before {
+		content: '\f067';
+		color: #FFF;
+		position: absolute;
+		margin-top:.6em;
+		margin-left:.7em;
+		opacity: 1;
+		font-size:1.4em;
+		font-weight:400;
+		font-family:'FontAwesome';
+		transform: rotate3d(0, 0, 1, -180deg);
+		transition: content 0.4s, transform 0.4s, opacity 0.2s;
+	}
+	
+	&:after {
+		content: '\f007';
+		color: #FFF;
+		position: absolute;
+		margin-top: .6em;
+		margin-left: .7em;
+		font-size: 1.4em;
+		font-weight: 400;
+		opacity: 0;
+		font-family: 'FontAwesome';
+		transform: rotate3d(0, 0, 1, -180deg);
+		transition: content 0.4s, transform 0.4s, opacity 0.4s;
+	}
+	
+	&.open {
+		&::before {
+			transform: rotate3d(0, 0, 1, 0deg);
+			opacity: 0;
+		}
+		&::after {
+			transform: rotate3d(0, 0, 1, 0deg);
+			opacity: 1;
+		}
+	}
+	&:hover {
+		@include circleShadow(8px);
+	}
+}
+
+.subActionButton {
+	background-color: #3F51B5;
+	height: 2em;
+	width: 2em;
+	border-radius: 50%;
+	margin-bottom: .6em;
+	margin-left: .5em;
+	opacity: 0;
+	position: relative;
+	z-index: 1000;
+	
+	.floatingText {
+		position: absolute;
+		top: -.6em;
+		right: 2.5em;
+		min-width: 10em;
+		font-family: 'Roboto';
+		color: #FFF;
+		text-align: right;
+		opacity: 0;
+		transition: opacity 0.4s;
+		&.show {
+			opacity: 1;
+		}
+	}
+	
+	.floatingTextBG {
+		padding: 0.2em 0.5em;
+		background-color: rgba(33, 33, 33, 0.8);
+		border-radius: .3em;
+	}
+	
+	&.display {
+		opacity: 1;
+	}
+	
+	&:before {
+		margin-top: .4em;
+		margin-left: .45em;
+		font-size: 1.2em;
+		font-family: 'FontAwesome';
+		position: absolute;
+		color: #FFF;
+	}
+	
+	&.person {
+		&:before {
+			content: '\f0c0';
+			margin-top: .3em;
+			margin-left: .3em;
+		}
+	}
+	&.mapMarker {
+		&:before {
+			content: '\f041';
+			margin-top: .4em;
+			margin-left: .55em;
+		}
+	}
+	&.note {
+		&:before {
+			content: '\f044';
+			margin-top: .4em;
+			margin-left: .45em;
+		}
+	}
+	
+	&:hover {
+		@include circleShadow(8px);
+	}
+}
