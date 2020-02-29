@@ -20,28 +20,6 @@ Cascading Style Sheets (CSS) controls the presentation aspect of the site and al
 <b>JavaScript</b><br><br>
 JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language model) that is used to transform a static HTML page into a dynamic interface. JavaScript code can use the Document Object Model (DOM), provided by the HTML standard, to manipulate a web page in response to events, like user input. 
 
-## What this repository contains
-While learning i did very simple projects to test what i learned
-* [FormValidation](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/FormValidation)
-* [MysteriousNumber](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/MysteriousNumber)
-* [PictureGallery](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/PictureGallery)
-* [PriceTable](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/PriceTable)
-* [Agency](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/agency)
-* [Blog](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/blog)
-* [CV](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/cv)
-* [Resume](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/resume)
-* [Login-register-forgot](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Login-register-forgot)
-* [Card](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Card)
-* [Form-BootstrapValidator](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/Form-BootstrapValidator)
-* [HtmlCommentRemover](https://github.com/Amine-Smahi/Frontend-Learning-Journey/tree/master/HtmlCommentRemover)
-
-#### Other projects
-* [Alphalio](https://github.com/Amine-Smahi/Alphalio)
-* [AdvanBit](https://github.com/Amine-Smahi/AdvanBit)
-* [Material-Design-Resume](https://github.com/Amine-Smahi/Material-Design-Resume)
-* [SimpleFolio](https://github.com/Amine-Smahi/SimpleFolio)
-* [BallFall](https://github.com/Amine-Smahi/BallFall)
-
 
 ## How to run the projects
 1) Click on the html file to open it
